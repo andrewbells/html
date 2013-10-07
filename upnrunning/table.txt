@@ -1,0 +1,16 @@
+<table border="1" cellspacing="0" cellpadding="5" width="60%">
+                <tr><th><p>Objective</p></td><th><p>Company</p></th></tr><tr align="center"><td><p>To open a new hotel</p></td>
+<td><p>&quot;Friends&quot;&nbsp;Hotels&nbsp;&amp;&nbsp;Hostels</p></td></tr></table>
+
+
+More complicated structure
+
+
+ <table border="1" cellspacing="0" cellpadding="1" width="60%" summary="The table represents a brief job description.">
+                        <caption id="tablename">Work places</caption>
+                        <tr><th scope="col"><p>Company</p></th><th scope="col"><p>Position</p></th><th scope="col"><p>Task</p></th></tr>
+                        <tr><td>&ldquo;Friends&rdquo;&nbsp;Hotels&nbsp;&amp;&nbsp;Hostels</td><td>Hotel Manager</td><td>Organized efficient hotel operations</td></tr>
+                        <tr align="center"><td>&ldquo;Saga Furs&rdquo;&nbsp;Oyj</td><td>Auction Assistant</td><td>Assisted international fur buyers</td></tr>
+                        <tr class="center"><td>&ldquo;Mediaplanet&rdquo;&nbsp;Oy&nbsp;</td><td>Project Manager</td><td>Worked on own media project</td></tr>
+                        <tr><td colspan="3">Superlong title of the vacant position i would like to have next year</td></tr>
+                </table>

@@ -1,0 +1,3 @@
+<dl><dt>Project Coordinator</dt><dd>Coordinated project of opening a new hotel.<ol><li>Logistics and Supply Chain Management</li><li>General Administration</li></ol></dd><dt>Hotel Manager</dt><dd>Managed the newly opened hotel.</dd></dl></div>
+
+
