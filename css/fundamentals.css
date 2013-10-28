@@ -68,6 +68,7 @@ aside {
     width: 300px;
 	border: 1px solid #000;
 	padding: 20px;
+	margin-bottom: 20px;
 }
 body {
     font-family: Arial;
@@ -87,12 +88,21 @@ p {
     font-size: 1em;
 	color: brown;
 }
+
+/* class uses . */
 .aside1 {
     border: 1px solid green;
 }
 .aside2 {
     border: 1px solid red;
 }
-
+/* id uses hash tag. id must be unique. id is used 
+in favour of class since it is more specific*/
+#navigation {
+    background: beige;
+}
+#unorderedList {
+    background: tan;
+}
 
 
