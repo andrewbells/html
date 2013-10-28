@@ -1,0 +1,98 @@
+/* 
+Selectors:
+
+div p --> targeting paragraphs within a div
+
+div + p --> p following immediately after div
+
+@font-face, @media inline rules group elements
+
+div p, h1 group selector
+
+@media screen and (min-width: 720px) {
+	h1 {font-size: 2em; color: blue;}
+	p {font-size: 1em; color: black;}
+}
+
+h1, h2, p {font-family: Georgia;}
+body {font-family: Georgia;}
+
+h1 {font-size: 1.4em;}
+h2 {margin: 25px;}
+ul {padding: 1.4em;}
+p {line-height: 1.5;}
+
+absolute values -- inches, cm, mm, pt
+
+relative units -- em (default size of the font, e.g. 1em==16px -- in the default 
+browser setting), px,gd (grids), ch(aracters)
+
+up to the default device setting
+body {font-size: 100%;}
+h1 {font-size: 1.6em;}
+h2 {font-size: 1.4em;}
+h3 {font-size: 1.2em;}
+p {font-size: 1em;}
+
+
+h1 {
+    font-size: 2em;			--> if defice font size: 16 px --> 2x16 = 32px
+	margin-bottom: 1em;		--> thus 32px!!!
+}
+
+ex --> based on the "x-height" of a font.
+root ems -- same as ems, but relative to root unit -- e.g. body, not element's 
+immediate parent. not fully supported yet
+
+percentages --> e.g. 80% of its parent element -- sensitive towards device's screen size
+ */
+
+ /*
+body {
+    font-family: Arial;
+	color: gray;
+}
+div h3 {
+    color: green;
+}
+h2 {
+    color: maroon;
+}
+*/
+
+/* element selector */
+aside, article, sectio, header, footer, nav {
+    display: block;
+}
+aside {
+    width: 300px;
+	border: 1px solid #000;
+	padding: 20px;
+}
+body {
+    font-family: Arial;
+	font-size: 90%;
+}
+h1 {
+    font-family: Georgia;
+	font-size: 1.8em;
+	font-weight: normal;
+}
+h2 {
+    font-family: Georgia;
+	font-size: 1.4em;
+	font-weight: normal;
+}
+p {
+    font-size: 1em;
+	color: brown;
+}
+.aside1 {
+    border: 1px solid green;
+}
+.aside2 {
+    border: 1px solid red;
+}
+
+
+

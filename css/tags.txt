@@ -1,0 +1,14 @@
+Selectors:
+
+div p --> targeting paragraphs within a div
+
+div + p --> p following immediately after div
+
+@font-face, @media inline rules group elements
+
+div p, h1 group selector
+
+@media screen and (min-width: 720px) {
+	h1 {font-size: 2em; color: blue;}
+	p {font-size: 1em; color: black;}
+}
