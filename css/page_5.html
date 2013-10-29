@@ -45,7 +45,7 @@
 
 <body>
   <div>
-    <header>
+    <header id="pageHeader">
       <h1>CSS tryout page</h1>
     </header>
 	<aside id="navigation" class="aside1">
@@ -53,16 +53,17 @@
       <p><a href="frontpage_css.htm">Home</a></p>
 	  <p><a href="page_5.html">Main</a></p>
 	  <p><a href="css_page.html">Core concept</a></p>
+	  <p><a href="articles.html">Articles</a></p>
       <p><a href="../../js/website/page_6.html">Contact</a></p>
 	</nav>
 	</aside>
 
-    <div id="mainContent">
-	  <article>
-      <h3 id="one">Lorem</h3>
+    <div id="mainContent" class="mainContent">
+	  
+      <h3 id="one" class="author">Lorem</h3>
 					  
 		<p>&ldquo;Nam placerat&rdquo; tortor sit amet massa 
-		dictum, nec aliquam enim egestas. Donec aliquet nulla purus, id tincidunt est vulputate eget. 
+		dictum, nec aliquam enim egestas. Donec <span class="author">Andrey</span> aliquet nulla purus, id tincidunt est vulputate eget. 
 		Phasellus id ultricies lorem. In lacinia egestas adipiscing. Aenean volutpat lectus a neque 
 		blandit tempor. Donec non tellus venenatis, lacinia felis vel, feugiat neque. Curabitur ac 
 		commodo tellus.<br>
@@ -70,7 +71,7 @@
 		neque quis ultricies rutrum. In iaculis eros eu sem adipiscing elementum. Nam ac ullamcorper 
 		tellus. In eu mattis ante. Aenean tempor erat dolor, eu condimentum nibh aliquam ut.
 		Nunc porttitor auctor vehicula. </p>
-					  
+	<article id = "news">				  
       <h3 id="two">Sit Amet</h3>
 					  
 		<p>&ldquo;Lorem ipsum&rdquo; dolor sit amet, 
@@ -82,8 +83,8 @@
 		netus et malesuada fames ac turpis egestas.
 		</p>
 					  
-       <h3 id="three">Ipsum <em>Dolor</em></h3>
-					  
+       <h2 id="three">Ipsum <em>Dolor</em></h2>
+				  
 		<p> &ldquo;Phasellus&rdquo; mollis hendrerit 
 		lectus, quis vulputate neque viverra sed. Donec tincidunt posuere risus, nec consequat 
 		lorem vulputate ac. Praesent ut suscipit 
@@ -91,42 +92,47 @@
 		rhoncus arcu. Donec suscipit commodo eleifend. Duis mollis euismod mauris sed 
 		malesuada. In &ldquo;malesuada&rdquo; , arcu non consectetur dapibus, ligula risus condimentum 
 		erat, nec cursus sem quam eget massa.<br>
-		Cras felis quam, semper vitae tellus sed, feugiat gravida nulla. Nam vel sollicitudin 
+		Cras felis quam, semper vitae tellus sed, <span class="author">George</span> feugiat gravida nulla. Nam vel sollicitudin 
 		risus. Integer dignissim condimentum iaculis. Nam scelerisque auctor fringilla. 
 		Duis non orci dui. &ldquo;Etiam&rdquo; neque metus, sodales pharetra hendrerit non, facilisis 
 		tempus velit. Maecenas tincidunt nec eros at pulvinar. Proin porttitor, urna at varius 
 		tempus, purus leo viverra risus, id facilisis nibh eros eu neque. Maecenas nisi orci, 
 		hendrerit at pellentesque nec, fermentum eu sapien. Donec et risus eget magna blandit 
 		pharetra. Sed commodo augue a eros luctus, eget tempus lorem interdum. </p>
+	<aside>
+	    <h2>Heading 2</h2>
+		<p>This is an aside within an article.</p>
+	</aside>
+		
     </article>
 	</div>
 	<aside id="unorderedList" class="aside2">
-	    <h2 id="unListHead">Unordered List</h3>
+	    <h2 id="unListHead">Unordered List</h2>
 	    <ul id="uList">
 		    <li>
 			    <p>
-			    Cras felis quam, semper vitae tellus sed, feugiat gravida nulla. Nam vel sollicitudin 
-		        risus. Integer dignissim condimentum iaculis.
+			    <span class="date">On 14th of August.</span>Cras felis quam, semper vitae tellus sed, feugiat gravida nulla. Nam vel sollicitudin 
+		        risus. Integer dignissim condimentum iaculis <span class="author">George</span>.
 			    </p>
 			</li>
 			<li>
 			    <p>
-				Donec tincidunt posuere risus, nec consequat 
-		        lorem vulputate ac.
+				<span class="author">Andrey</span> donec tincidunt posuere risus, nec consequat 
+		        lorem vulputate ac <span class="date">on 19th of August</span>.
 				</p>
 			</li>
 			<li>
 			    <p>Maecenas nisi orci, 
 		        hendrerit at pellentesque nec, fermentum eu sapien. Donec et risus eget magna blandit 
-		        pharetra. Sed commodo augue a eros luctus, eget tempus lorem interdum.
+		        pharetra. <span class="date">On 19th of August</span> sed commodo augue a eros luctus, eget tempus lorem interdum.
 			    </p>
 			</li>
 		</ul>
 	
 	</aside>
 
-    <footer>
-     <p>&copy; Copyright  by Andrey</p>
+    <footer id="pageFooter">
+    <p>&copy; Copyright  by Andrey</p>
     </footer>
   </div>
 </body>

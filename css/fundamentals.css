@@ -61,37 +61,58 @@ h2 {
 */
 
 /* element selector */
-aside, article, sectio, header, footer, nav {
+aside, article, section, header, footer, nav {
     display: block;
+}
+
+html, body, h1, h2, h3, p {
+    margin: 0;
+	padding: 0;
+}
+html {
+    background: gray;
 }
 aside {
     width: 300px;
 	border: 1px solid #000;
 	padding: 20px;
 	margin-bottom: 20px;
+	font-size: 85%;
 }
 body {
     font-family: Arial;
-	font-size: 90%;
+	font-size: 100%;
+	width: 600px;
+	background: white;
+	/* margin: 0 auto; */
+}
+
+article {
+    padding: 0 25px;
 }
 h1 {
-    font-family: Georgia;
-	font-size: 1.8em;
-	font-weight: normal;
+    font-size: 1.8em;
 }
 h2 {
+    font-size: 1.4em;
+}
+h1, h2 {
     font-family: Georgia;
-	font-size: 1.4em;
 	font-weight: normal;
+	font-style: italic;
+	margin-bottom: 1em;
 }
 p {
     font-size: 1em;
 	color: brown;
+	line-height: 1.6;
+	margin-bottom: 1em;
 }
 
 /* class uses . */
 .aside1 {
     border: 1px solid green;
+	width: 150px;
 }
 .aside2 {
     border: 1px solid red;
@@ -103,6 +124,91 @@ in favour of class since it is more specific*/
 }
 #unorderedList {
     background: tan;
+}
+.date {
+    font-weight: bold;
+	color: navy;
+}
+/* id --> unique */
+#pageHeader {
+    background: grey;
+    padding: 15px;
+}
+#news {
+    
+}
+h2#unListHead {
+    width: 250px;
+	padding: 15px;
+	background: beige;
+}
+footer {
+    background: #42403E;
+	padding: 10px 0;
+	color: white;
+	text-align: center;
+}
+
+.author {
+    font-weight: bold;
+	font-style: italic;
+	color: navy;
+}
+h3.author {
+    font-style: normal;
+	color: black;
+    font-variant: small-caps;
+}
+
+/* universal selector -- * -- styling reset */
+/*
+* {
+    margin: 10;
+	padding: 10;
+}
+*/
+/* child style overrides parent styles --> inheritance */
+/*
+section {
+    color: red;
+}
+*/
+/* Descendent selectors */
+
+header h1{
+    background: #42403E;
+	text-align: center;
+	line-height: 75px;
+	color: white;
+}
+article h3{
+    color: #7D6855;
+}
+.mainContent h2 {
+    background: #7D6855;
+	padding: 5px 0;
+	text-align: center;
+	color: white;
+}
+article aside p {
+    background: #D1956D;
+	padding: 5px 0;
+	text-align: center;
+	color: white;
+	
+}
+footer p {
+    color: white;
+}
+
+/* article > h2 -- targeting direct childs */
+article > h3 {
+    color: #FFAD33;
+}
+
+aside ol > li {
+    font-style: italic;
+	color: red;
 }
 
 

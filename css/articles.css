@@ -1,0 +1,123 @@
+aside, article, section, header, footer, nav {
+    display: block;
+}
+
+html, body, h1, h2, h3, p {
+    margin: 0;
+	padding: 0;
+}
+html {
+    background: gray;
+}
+aside {
+    width: 300px;
+	border: 1px solid #000;
+	padding: 20px;
+	margin-bottom: 20px;
+	font-size: 85%;
+}
+body {
+    font-family: Arial;
+	font-size: 100%;
+	width: 600px;
+	background: white;
+	/* margin: 0 auto; */
+}
+
+article {
+    padding: 0 25px;
+}
+header h1 {
+    background: #42403E;
+	text-align:center;
+	line-height: 75px;
+	color: white;
+}
+h1 {
+    font-size: 1.8em;
+}
+h2 {
+    font-size: 1.4em;
+}
+h1, h2 {
+    font-family: Tahoma;
+	font-weight: normal;
+	font-style: italic;
+	margin-bottom: 1em;
+}
+p {
+    font-size: 1em;
+	color: black;
+	line-height: 1.6;
+	margin-bottom: 1em;
+}
+footer {
+    background: #42403E;
+	padding: 10px 0;
+	color: white;
+	text-align: center;
+}
+/* everywhere where p goes after footer */
+footer p {
+    color: white;
+}
+/* adjacent selectors -- in the same parent */
+h2 + p, h3 + p {
+    margin-top: .6em;
+	font-style: italic;
+}
+
+/* attribute selectors */
+a {
+    text-decoration: none;
+	color: black;
+}
+
+/*
+a[href^="http://"] {
+    color: red;
+}
+a[title="visit vk profile"] {
+    color: red;
+}
+a[href$=".docx"] {
+    color: red;
+}
+a[title*="visit"] {
+    color: red;
+}
+*/
+a:hover {
+    color: gray;
+}
+a[href*="_docs"] {
+    color: green;
+}
+p[class~="red"] {
+    color: red;
+}
+p[class~="red"]:hover {
+    color: green;
+}
+/* DOM -- structural representation of the elements on the page -- TREE*/
+/* Pseudo-class selectors -- target elements that lie outside of the DOM
+
+dynamic -->
+:hover
+a:hover
+ul a:hover
+
+UI element state -->
+
+Structural -->
+li:nth-child(odd) {
+color: red;
+}
+
+other -->
+
+ */
+
+
+
+
