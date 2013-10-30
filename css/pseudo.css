@@ -1,0 +1,108 @@
+ /* pseudo-class selectors */
+body {
+    font-family: Arial;
+	font-size: 100%;
+	margin: 50px 0 0 50px;
+}
+ul {
+    list-style: none;
+	margin: 0 0 50px;
+	padding: 0;
+}
+li {
+    margin: 0;
+	padding: 0;
+	width: 175px;
+}
+/* order matters --> LoVeHAte*/
+a:link {
+    text-decoration: none;
+	background: maroon;
+	color: white;
+	display: block;
+	padding: 5px 10px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    background: orange;
+}
+a:active {
+    background: green;
+}
+/* file:///C:/Users/andko_000/Documents/GitHub/html/css/pseudo.html#target */
+a:target {
+    color: red;
+}
+/* nth-child() pseudo-class */
+ol {
+    list-style: none;
+}
+ol li {
+    background: beige;
+	padding: 5px;
+	margin: .6em 0;
+	width: 200px;
+}
+/* 
+simple nth child:
+
+ol li:nth-child(2n) {
+    background: tan;
+} 
+ol li:nth-child(odd) {
+    background: tan;
+}
+ol li:nth-child(even) {
+    background: tan;
+}
+
+off set --> 
+start from 4th and apply to every fifth
+ol li:nth-child(5n+4) {
+    background: tan;
+}
+
+starts at 8th and counts back by 2
+ol li:nth-child(-2n+8) {
+    background: tan;
+}
+starts at 3, goes up by 5
+ol li:nth-child(5n-2) {
+    background: tan;
+}
+
+COMPLEX NTH CHILD:
+everyone from 6th (including)
+ol li:nth-child(1n+6) {
+    background: tan;
+}
+
+not applied -- excluding first 5 and last 5:
+ol li:nth-child(1n+6):nth-last-child(1n+6) {
+    background: tan;
+}
+
+first 5 and last 5 applied:
+ol li:nth-child(-1n+5), ol li:nth-last-child(-1n+5) {
+    background: tan;
+}
+*/
+ol li:nth-child(1n+6):nth-last-child(1n+6) {
+    background: tan;
+}
+.photos::after {
+    content: "All photos by Andrey Kolokolnikov";
+	font-style: italic;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+
+

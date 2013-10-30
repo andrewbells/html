@@ -84,7 +84,7 @@ body {
 	font-size: 100%;
 	width: 600px;
 	background: white;
-	/* margin: 0 auto; */
+	margin: 50px 0 0 50 px;
 }
 
 article {
@@ -210,5 +210,30 @@ aside ol > li {
     font-style: italic;
 	color: red;
 }
-
-
+ul {
+    list-style: none;
+	margin: 0 0 50px;
+	padding: 0;
+}
+nav p a:link {
+    text-decoration: none;
+	background: maroon;
+	color: white;
+	display: block;
+	padding: 5px 10px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+}
+nav p a:visited {
+    color: black;
+}
+nav p a:hover {
+    background: orange;
+}
+nav p a:active {
+    background: green;
+}
+h3:target {
+    background: yellow;
+}

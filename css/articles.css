@@ -22,10 +22,11 @@ body {
 	width: 600px;
 	background: white;
 	/* margin: 0 auto; */
+	padding: 0 25px;
 }
 
 article {
-    padding: 0 25px;
+    padding: 0 35px;
 }
 header h1 {
     background: #42403E;
@@ -43,6 +44,12 @@ h1, h2 {
     font-family: Tahoma;
 	font-weight: normal;
 	font-style: italic;
+	margin-bottom: 1em;
+}
+h3 {
+    font-size: 1.2em;
+    font-family: Georgia;
+	font-weight: normal;
 	margin-bottom: 1em;
 }
 p {
@@ -118,6 +125,65 @@ other -->
 
  */
 
+ 
+ /* pseudo-class selectors */
+nav p a:link {
+    text-decoration: none;
+	background: maroon;
+	color: white;
+	display: block;
+	padding: 5px 10px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+}
+nav p a:visited {
+    color: black;
+}
+nav p a:hover {
+    background: orange;
+}
+nav p a:active {
+    background: green;
+} 
+/* structural pseudo-class selectors --> check browser compatibility */
+span:first-child {
+    font-size: 1.3em;
+	font-weight: bold;
+	color: maroon;
+}
+h3:first-of-type {
+    border-bottom: 1px solid #42403E;
+}
+/* usually if there is first-of-type, there must be "last-of-type also" */
+p:only-child {
+    font-style: italic;
+	text-align: center;
+}
+/* pseudo-element selector :: --> not in IE8*/
+h3 + p::first-line {
+    font-family: Georgia;
+	font-style: italic;
+}
+h3 + p::first-letter, h2 + p::first-letter {
+    font-size: 3em;
+	font-family: Georgia;
+	float: left;
+	padding: 10px 5px 0 0;
+}
+/* generating content */
+/*
+section a::after, ul a::after {
+    content: " (outside link)";
+	color: #666;
+	font-size: .9em;
+}
 
+*/
 
+section a[href^="http://"]::after, ul a[href^="http://"]::after {
+    content: " ["attr(href) "]";
+	color: #666;
+	font-size: .9em;
+}
 
