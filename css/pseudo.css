@@ -1,15 +1,19 @@
+@-webkit-keyframes blinker { from {opacity:1.0;} to {opacity:0.0;} }
+        @keyframes blinker { from {opacity:1.0;} to {opacity:0.0;} }
+ 
+ 
  /* pseudo-class selectors */
 body {
     font-family: Arial;
 	font-size: 100%;
 	margin: 50px 0 0 50px;
 }
-ul {
+nav ul {
     list-style: none;
 	margin: 0 0 50px;
 	padding: 0;
 }
-li {
+nav ul li {
     margin: 0;
 	padding: 0;
 	width: 175px;
@@ -24,6 +28,7 @@ a:link {
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 2px;
+	 font-weight: bold;
 }
 a:visited {
     color: black;
@@ -103,6 +108,66 @@ ol li:nth-child(1n+6):nth-last-child(1n+6) {
 	padding: 0;
 	display: block;
 }
+/* TRANSFORMING THE TEXT */
+h1 {
+    font-size: 1.6em;
+	/* font variant */
+    font-variant: small-caps;
+}
+h2 {
+    font-size: 1.6em;
+	text-transform: capitalize;
+	
+}
+p {
+    font-size: 1em;
+}
+.upper {
+    text-transform: uppercase;
+}
+.lower {
+    text-transform: lowercase;
+}
+/* DECORATIONS */
+
+.underline {
+    text-decoration: underline;
+}
+.overline {
+    text-decoration: overline;
+}
+.line {
+    text-decoration: line-through;
+}
+.blink {
+    text-decoration: blink;
+	
+	-webkit-animation-name:blinker;
+          animation-name:blinker;  
+    -webkit-animation-iteration-count:infinite;  
+          animation-iteration-count:infinite;  
+    -webkit-animation-timing-function:cubic-bezier(1.0,0,0,1.0);
+          animation-timing-function:cubic-bezier(1.0,0,0,1.0);
+    -webkit-animation-duration:1s; 
+          animation-duration:1s; 
+}
 
 
+#none {
+    text-decoration: none;
+	color: red;
+}
 
+/* SETTING COLOR 
+color:
+background:
+
+*/
+.foreground {
+    color: red;
+}
+.background {
+    background-color: maroon;
+    color: white;
+    padding: 5px;	
+}

@@ -9,8 +9,8 @@
 
   <title>Pseudo-selectors</title>
   <link id="CSSfund" href="pseudo.css" rel="stylesheet" type="text/css">  
-  <meta name="description" content="articles">
-  
+  <meta name="description" content="CSS selectors">
+  <meta name="keywords" content="pseudo, CSS, selectors, learning">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
     <header>
       <h1>Pseudo-list</h1>
     </header>
-	
+	<nav>
     <ul>
       <li><a href="frontpage_css.htm" title="home">Home</a></li>
 	  <li><a href="page_5.html" title="main">Main</a></li>
@@ -26,12 +26,12 @@
 	  <li><a href="articles.html" title="articles">Articles</a></li>
       <li><a href="../../js/website/page_6.html" title="contacts">Contact</a></li>
     </ul>
-    
+    </nav>
     <p><a id="target">&ldquo;Nam placerat&rdquo;</a></p>
 	<div class="banner">
-	<h2>This is a banner</h2>
-	<p>This is a banner's content. In lacinia egestas adipiscing. Aenean volutpat lectus a neque 
-		blandit tempor. Donec non tellus venenatis.</p>
+	<h2 class="foreground">this is a banner.</h2>
+	<p class="background">This is a banner's content. In lacinia egestas adipiscing. <span class="lower">THIS TEXT IS SUPPOSED TO BE LOWERCASE (text-transform).</span> Aenean volutpat lectus a neque 
+		blandit tempor. <span class="upper">this text is uppercase (text-transform).</span> Donec non tellus venenatis.</p>
 	</div>
 	<ol>
 	<li>item one</li>
@@ -51,6 +51,18 @@
 	</ol>
 	<div class="photos">
 	<img src="_img/report.jpg" alt="picture">
+	</div>
+	<div>
+	<ul>
+	  <li>
+	     <a href="http://vk.com/a.bells" title="no underline please" id="none">Undecorate me</a>
+	  </li>
+	  <li class="underline">Underline me</li>
+	  <li class="overline">Overline me</li>
+	  <li class="line">Line-through me</li>
+	  <li class="blink">I want to BLINK!</li>
+	
+	</ul>
 	</div>
 </body>
 </html>
