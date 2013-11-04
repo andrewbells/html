@@ -1,0 +1,53 @@
+/* Стили элементов */
+body{
+    width:260px;
+    margin:0;
+    padding:10px;
+    font-family:"Arial";
+    font-size:12px;
+}
+h1{
+    font-size:16px;
+}
+
+/* Общие стили для блоков */ 
+.logo,
+.contacts,
+.left-column,
+.right-column{
+    padding:10px 5%;
+    background:#FCF8E3;
+}
+
+/* Собственные стили для каждого блока */
+.header{
+    height:40px;
+    margin-bottom:10px;
+}
+.logo{
+    float:left;
+    width:25%;
+    height:20px;
+    text-align:center;
+    font-size:16px;
+    background-color: #DFF0D8;
+    font-weight: bold;
+}
+.contacts{
+    float:right;
+    width:50%;
+    height:20px;
+    text-align:right;
+    font-style:italic;
+    color:#468847;
+    
+}
+.left-column{
+    width:50%;
+    float:left;
+}
+.right-column{
+    width:25%;
+    float:right;
+    background-color: #DFF0D8;
+}
