@@ -1,0 +1,35 @@
+body{
+    width:260px;
+    margin:0;
+    padding:0 10px;
+    font-size:11px;
+    font-family:"Arial";
+}
+table {
+    width: 100%;
+    border-collapse:collapse;
+}
+th {
+    padding: 10px;
+    color: white;
+    background-color: #618AD2;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+td {
+    padding: 10px;
+    border-bottom: 1px solid #CCCCCC;
+    
+}
+.row2 {
+    background-color: #F5F5F5;
+}
+.col2 {
+    text-align: center;
+}
+.col3 {
+    text-align: right;
+}
+.col1 {
+    text-align: left;
+}
