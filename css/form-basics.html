@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Registration form</title>
+       <link rel="stylesheet" href="form-basics.css" type="text/CSS" charset="utf-8"/>
+    </head>
+    <body>
+        <h1>Registration</h1>
+        <form action="/echo" method="post">
+            <label for="email">Login (email):</label>
+            <br><input type="text" name="email-address" id="email"><br>
+            <label for="password">Password:</label><br>
+            <input type="text" name="your-password" id="password"><br>
+            <label for="info">Tell us about yourself:</label><br><textarea type="text" name="your-info" rows="3" id="info"></textarea><br>
+            <input type="checkbox" checked name="register"><label>Subscribe for a newsletter</label><br>
+            <input type="submit" value="Register">
+        </form>
+    </body>
+</html>
