@@ -1,0 +1,48 @@
+/* Базовые стили, изменять не нужно */
+html, body{
+    margin:0;
+    padding:0;
+}
+body{
+    width:260px;
+    min-height:210px;
+    padding:20px;
+    font-family:"Arial", sans-serif;
+    font-size:14px;
+    line-height:1.5;
+    color:white;
+    background-color:#3A78A1;
+    background-image:url('/assets/course9/grid.png');
+    background-repeat:repeat;
+    background-position:-80px -80px;
+}
+
+/* Cтили, которые можно изменять */
+.column{
+    margin-bottom:10px;
+    padding:10px;
+    border:2px solid white;
+    background:rgba(0, 255, 255, 0.2);
+    display:inline-block;
+    vertical-align:top;
+    margin-right:10px;
+    width:76px;
+}
+.cell{
+    padding:5px 10px;
+    border:1px solid white;
+    background:rgba(0, 255, 255, 0.2);
+    display:table-cell;
+    width:96px;
+}
+.table {
+    display:table;
+}
+.row{
+    display:table-row;
+}
+
+
+.col-3 {
+    display:none;
+}

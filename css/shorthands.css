@@ -1,0 +1,89 @@
+aside, article, section, header, footer, nav {
+    display:block;
+}
+body {
+    width:60%;
+    font: normal normal normal 100%/1.5 "Times New Roman", Georgia, Times, serif;
+	/* style, weight, variant, size/line-height, fonts*/
+	margin:0  auto;;
+	padding:50px
+}
+
+/*
+body {
+    width:600px;
+    font: 100% "Times New Roman", Georgia, Times, serif;
+	minimal version
+}
+body {
+    width:600px;
+    font: bold 100% "Times New Roman", Georgia, Times, serif;
+	minimal version
+}
+*/
+.shorthand {
+     font: italic 1.2em Arial, Helvetica, sans-serif;
+	 /* overwrites H1 with normal */
+}
+.uList {
+    font: status-bar;
+	/* OPTIONAL KEYWORDS
+	font: icon; 
+	font: menu;
+	
+	*/
+}
+.left {
+    text-align:left;
+}
+.right {
+    text-align:right;
+}
+.center {
+    text-align:center;
+}
+.justify {
+    text-align:justify;
+}
+
+p{
+    font-size: 1em;
+	
+	-webkit-hyphens:auto;
+	-o-hyphens:auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+.letter {
+    letter-spacing:10px;
+	/* letter-spacing:-5px; tight*/
+}
+.word {
+    word-spacing:1em;
+	/* ems, px, % */
+}
+h2.speed, h2.render {
+    font-size:60px;
+	margin:0px;
+}
+.render {
+    text-rendering:optimizeLegibility;
+	/* svg, not css. this tells browser to take time and render text well */
+}
+.speed {
+    text-rendering:optimizeSpeed;
+	/* this tells browser to process text as quick as possible, quality doesnt matter  */
+}
+p {
+    text-indent: 1em;
+}
+.quote {
+    text-indent: -.5em
+}
+h3 {
+    text-indent: -2000em;
+	background-color: #f1e9d0;
+}
+
+
+
