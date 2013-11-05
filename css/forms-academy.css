@@ -1,0 +1,22 @@
+html, body{
+    margin:0;
+    padding:0;
+}
+body{
+    width:260px;
+    padding:10px 20px;
+    font-family:"Arial", sans-serif;
+    font-size:14px;
+    line-height:1.5;
+    color:black;
+}
+h1{
+    font-size:18px;
+    font-weight:normal;
+    margin:0;
+    margin-bottom:10px;
+}
+input[type="submit"]{
+    display:block;
+    margin-top:10px;
+}

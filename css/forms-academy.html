@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Profile editing</title>
+	   <link href="forms-academy.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>Profile</h1>
+        <form action="/echo" method="post" enctype="multipart/form-data">
+            <label>Gender:</label><br>
+            <label><input type="radio" name="gender" value="m">Male</label><label><input type="radio" name="gender" checked value="f">Female</label><br>
+            <label for="months years">Date of birth:</label><br>
+            
+            <select name="months" size="1">
+                <option>Jan</option>
+                <option>Feb</option>
+                <option>Mar</option>
+                <option>Apr</option>
+                <option>May</option>
+                <option>Jun</option>
+                <option>Jul</option>
+            </select>
+            <select name="years" size="1">
+                <option>1990</option>
+                <option>1989</option>
+                <option>1988</option>
+                <option>1987</option>
+                <option>1986</option>
+                <option>1985</option>
+                <option>1984</option>
+            </select><br>
+            <label for="skills">Skills:</label><br>
+            <select multiple name="skills[]" size="4">
+            <option>HTML</option>
+            <option selected>CSS</option>
+            <option>JavaScript</option>
+            <option>PHP</option>
+            </select><br>
+            <label for="photo">Photo:</label><br>
+            <input type="file" name="photo">
+            <input type="submit" value="Save"><br>
+        </form>
+    </body>
+</html>
