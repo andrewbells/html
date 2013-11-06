@@ -1,0 +1,47 @@
+article, aside, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+div p {
+    margin:0;
+	padding:0;
+}
+
+
+html {
+    background-color: #ccc;
+	overflow:hidden;
+}
+
+body {
+    width:600px;
+    margin:0  auto;
+	background: #fff;
+	overflow:auto;
+	/* 
+	overflow:scroll; -- adds scrolls (side n bottom)
+	overflow:hidden; 
+	to cut up -- makes inactive
+	*/
+}
+div {
+    background:#3ff;
+	/*
+	width:300px;
+	height:300px;
+	we loose content width when it is not predefined
+	600px - 20px(padding) - 20px(margin) - 2px(2borders)
+	margins are ignored if width is more the left (after 600-rest)
+	
+	margins get collapsed
+	*/
+	width:590px;
+	padding:10px;
+	border:1px solid #300;
+	margin:10px;
+}
+p {
+    background:#c90;
+	border:1px solid #000;
+}

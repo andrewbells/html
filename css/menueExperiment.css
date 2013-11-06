@@ -63,7 +63,7 @@ p{
 	margin-bottom: 1em;
 }
 
-td {
+td#mainMenue  {
     height:55px;
     vertical-align:bottom;
 }

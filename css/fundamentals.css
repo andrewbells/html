@@ -298,5 +298,9 @@ nav p a:active {
 h3:target {
     background: yellow;
 }
-
+a#coreConsepts {
+    background: orange;
+	/* keeps name of the page in the menu kinda pressed while on the page */
+	
+}
 
