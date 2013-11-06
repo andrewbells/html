@@ -23,8 +23,31 @@
 
 }
 
-aside, article, section, header, footer, nav {
-    display: block;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+
 }
 
 html, body, h1, h2, h3, p {
@@ -34,6 +57,9 @@ html, body, h1, h2, h3, p {
 html {
     background: gray;
 }
+body {
+    
+}
 aside {
     width: 300px;
 	border: 1px solid #000;
@@ -41,6 +67,18 @@ aside {
 	margin-bottom: 20px;
 	font-size: 85%;
 }
+.banner {
+    position:absolute;
+	background-color:#40D0e0;
+    left:80%;
+	top:20%;
+	padding:10px;
+	margin-right:50px;
+	border-radius:6px;
+	text-align:justify;
+
+}
+
 
 /* font stack -->  Arial, Helvetica, monospace, cursive, fantasy, sans-serif 
 serif and sans-serif --> all have them
@@ -48,10 +86,12 @@ serif and sans-serif --> all have them
 body {
     font-family: '2dumbregular',Arial, Helvetica, sans-serif;
 	font-size: 100%;
-	width: 600px;
+	line-height:1.6;
+	width: 800px;
 	background: white;
-	/* margin: 0 auto; */
+	margin: 0 auto;
 	padding: 0 25px;
+	
 }
 
 article {
@@ -245,4 +285,7 @@ p {
 }
 .dashed:hover{
     border-bottom:none;
+}
+#uList {
+    list-style: none;
 }

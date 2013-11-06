@@ -1,12 +1,47 @@
-aside, article, section, header, footer, nav {
-    display:block;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+body, h1, h2, h3, p {
+    margin:0;
+}
+html {
+    background-color: white;
+}
+
 body {
     width:60%;
-    font: normal normal normal 100%/1.5 "Times New Roman", Georgia, Times, serif;
+    font: normal normal normal 100%/1.6 "Times New Roman", Georgia, Times, serif;
 	/* style, weight, variant, size/line-height, fonts*/
-	margin:0  auto;;
+	margin:0  auto;
 	padding:50px
+	/* in line-height use multiples -- eg 1.5, NOT ems -- 1.5em -- when passing 
+	ems to body, other elements get non-relative, fixed values */
+	
+	/* margins do not inherit */
 }
 
 /*
@@ -21,6 +56,15 @@ body {
 	minimal version
 }
 */
+h1 {
+    font-size:1.8em;
+	margin-bottom: 1em; /* based on font-size of the element */
+}
+h2 {
+    font-size:1.6em;
+	margin-bottom: .2em;
+}
+
 .shorthand {
      font: italic 1.2em Arial, Helvetica, sans-serif;
 	 /* overwrites H1 with normal */
@@ -53,6 +97,7 @@ p{
 	-o-hyphens:auto;
     -moz-hyphens: auto;
     hyphens: auto;
+	margin-bottom: 1em;
 }
 .letter {
     letter-spacing:10px;
@@ -75,6 +120,7 @@ h2.speed, h2.render {
 	/* this tells browser to process text as quick as possible, quality doesnt matter  */
 }
 p {
+    font-size:1em;
     text-indent: 1em;
 }
 .quote {
@@ -83,6 +129,42 @@ p {
 h3 {
     text-indent: -2000em;
 	background-color: #f1e9d0;
+}
+/*
+background:[bc] [bi] [br] [bp] [ba];
+/* Обозначения:
+[bc] — background-color
+[bi] — background-image
+[br] — background-repeat
+[bp] — background-position
+[ba] — background-attachment
+
+background:url('/assets/course13/cat_fish_128.png')
+ no-repeat 90px 145px, url('/assets/course13/cat_grumpy_128.png')
+ no-repeat 15px 125px, url('/assets/course13/cat_drunk_128.png') 
+ no-repeat 160px 125px, url('/assets/course13/cat_walk_128.png') 
+ no-repeat 80px 80px, url('/assets/course13/cat_academy.png') 
+ no-repeat 20px 20px, url('/assets/course13/star.png') repeat-x 0 10px, 
+ url('/assets/course13/star.png') repeat-x 0 270px;
+*/
+
+.p-line-height {
+    line-height:1.8em;
+	/*
+	normal, 140%, 1.4em, 1.4 (no unit)
+	*/
+}
+.line-height {
+    line-height: 3em;
+    background:yellow;
+	display:inline-block;
+	
+}
+.centerVert {
+    color: #fff;
+	background: #666;
+	line-height: 100px;
+	padding-left: 25px;
 }
 
 

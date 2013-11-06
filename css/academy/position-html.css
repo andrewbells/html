@@ -1,0 +1,90 @@
+html{
+    padding:0;
+}
+body{
+    padding:0;
+    margin:0;
+    height:260px;
+    width:260px;
+	background: #36E09C;
+}
+div{
+    display:inline-block;
+    background:white;
+}
+/* горизонтальные элементы */
+.h{
+    width:50px;
+    height:10px;
+    position:absolute;
+}
+.h3{
+    width:40px;
+    left:200px;
+    top:210px;
+}
+.h2{
+    
+    left:80px;
+    top:170px;
+}
+.h1{
+    
+    left:20px;
+    top:190px;
+}
+/* вертикальные элементы */
+.v{
+    width:10px;
+    height:50px;
+    position:absolute;
+    top:170px;
+}
+.v1 {
+    left:20px;
+}
+.v2 {
+    left:60px;
+}
+.v3 {
+    left:100px;
+}
+.v4 {
+    left:140px;
+}
+.v5 {
+    left:180px;
+}
+.v6 {
+    left:200px;
+}
+/* уголки */
+.corner-top{
+    border:15px solid white;
+    border-top-width:20px;
+    border-bottom-width:0;
+    border-top-color:transparent;
+    background:none;
+    position:absolute;
+    left:150px;
+    top:170px;
+}
+.corner-bottom{
+    border:15px solid transparent;
+    border-top-width:20px;
+    border-bottom-width:0;
+    border-top-color:white;
+    background:none;
+    position:absolute;
+    left:150px;
+    top:190px;
+}
+/* лого */
+.logo{
+    width:64px;
+    height:64px;
+    background:url('../_img/report.jpg');
+    position:absolute;
+    top:78px;
+    left:88px;
+}

@@ -1,0 +1,29 @@
+body{    
+    padding:0;
+    margin:0; 
+    background-image:url('/../_img/report.jpg');
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+.block{
+    width:128px;
+    height:128px;
+    margin:20px auto;
+    border-radius:5px;
+    background-color:#34495e;
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+}
+.block:nth-child(1){
+    background-image:url('/assets/course13/cat_clean.png');
+}
+.block:nth-child(2){
+    background-image:url('/assets/course13/cat_fight.png');
+}
+.block:nth-child(3){
+    background-image:url('/assets/course13/cat_hiss.png');
+}
+.block:nth-child(4){
+    background-image:url('/assets/course13/cat_poo.png');
+}

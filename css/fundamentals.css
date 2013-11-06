@@ -1,3 +1,29 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
 /* 
 Selectors:
 
@@ -84,7 +110,7 @@ body {
 	font-size: 100%;
 	width: 600px;
 	background: white;
-	margin: 50px 0 0 50 px;
+    margin:0  auto;
 }
 /*
 no conflict:
@@ -117,7 +143,17 @@ large;
 x-large;
 font-size: xx-large;
  */
-
+.aside2 {
+    position:absolute;
+	background-color:#4DD9E8;
+    left:80%;
+	top:20%;
+	padding:10px;
+	margin-right:50px;
+	border-radius:6px;
+	text-align:justify;
+	
+}
 p {
     font-size: 1em;
 	color: brown;
@@ -132,6 +168,7 @@ p {
 }
 .aside2 {
     border: 1px solid red;
+	list-style-type:none;
 }
 /* id uses hash tag. id must be unique. id is used 
 in favour of class since it is more specific*/
@@ -261,3 +298,5 @@ nav p a:active {
 h3:target {
     background: yellow;
 }
+
+

@@ -164,10 +164,22 @@ background:
 
 */
 .foreground {
-    color: red;
+    color: #564270;
 }
 .background {
-    background-color: maroon;
-    color: white;
+    background-color: #F5D478;
+    color: #E01BC9;
     padding: 5px;	
 }
+.banner {
+    position:absolute;
+	background-color:#4DD9E8;
+    left:80%;
+	top:20%;
+	padding:10px;
+	margin-right:50px;
+	border-radius:6px;
+	text-align:justify;
+}
+
+
