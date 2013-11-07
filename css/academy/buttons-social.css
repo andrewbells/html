@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:"PT Sans", sans-serif;
+    font-size:14px;
+}
+.share{
+    width:270px;
+    margin:0 auto;
+    margin-top:120px;
+    padding:10px;
+    padding-left:20px;
+    background:#ecf0f1;
+}
+.share b{
+    margin-right:15px;
+    color:#7f8c8d;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+.social{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    margin-right:10px;
+    vertical-align:middle;
+    background:#bdc3c7 url(/assets/course14/social.png) no-repeat;
+}
+.social-vk{
+    background:#6D8FB3 url(/assets/course14/social.png) 0 0;
+}
+.social-fb{
+    background:#526da3 url(/assets/course14/social.png) -40px 0;
+}
+.social-tw{
+    background:#73bfe6 url(/assets/course14/social.png) -80px 0;
+}
