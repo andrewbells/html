@@ -1,0 +1,91 @@
+html, body{
+    margin:0;
+    padding:0;
+}
+body{
+    width:280px;
+    min-height:250px;
+    padding-top:50px;
+    padding-left:10px;
+    padding-right:10px;
+    font-size:12px;
+    font-family:"Arial", sans-serif;
+    line-height:1.2;
+    color:#7f8c8d;
+    background:#ecf0f1;
+}
+.post-stats .icon{
+    width:15px;
+    height:15px;
+    display:inline-block;
+    margin:5px;
+    vertical-align:middle;
+}
+.post {
+    margin-left:75px;
+}
+.post-title {
+    color:#2980b9;
+    font-size:20px;
+    margin-bottom:10px;
+    
+}
+.post-text {
+    background-color:#ffffff;
+    padding:15px;
+    border-bottom:5px solid #bdc3c7;
+    
+    margin-top:15px;
+    
+}
+.post-date {
+    border-bottom:5px solid #bdc3c7;
+    background-color:#ffffff;
+    width:55px;
+    height:55px;
+    position:absolute;
+    top:50px;
+    left:10px;
+    font-weight:bold;
+    text-align:center;
+    line-height:50px;
+    font-size:15px;
+}
+.post-type {
+    border-bottom:5px solid #bdc3c7;
+    background-color:#7f8c8d;
+    background-image:url('/assets/course14/quotes.png');
+    width:55px;
+    height:55px;
+    position:absolute;
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    top:120px;
+    left:10px;
+}
+a {
+    color:#2980b9;
+    text-decoration:none;
+}
+.post-stats {
+    display:inline-block;
+    white-space:nowrap;
+    
+}
+.icon-tags {
+    background-image:url('/assets/course14/post-challenge.png');
+    background-position:0 0;
+    background-repeat:no-repeat;
+}
+.icon-comments {
+    background-image:url('/assets/course14/post-challenge.png');
+    background-position:-20px 0;
+    background-repeat:no-repeat;
+}
+/*
+Все размеры, отступы, координаты, размеры шрифтов (не заданные в body) кратны 5 или 10.
+Ардеса картинок:
+/assets/course14/quotes.png
+/assets/course14/post-challenge.png
+Картинка "кавычки" выровнена по центру
+*/

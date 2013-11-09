@@ -1,0 +1,55 @@
+html, body{
+    margin:0;
+    padding:0;
+}
+body{
+    width:280px;
+    min-height:280px;
+    padding-top:20px;
+    padding-left:20px;
+    font-size:14px;
+    font-family:"Arial", sans-serif;
+    line-height:1.2;
+    background:#ecf0f1;
+}
+/*
+Все размеры, отступы, координаты, размеры шрифтов (не заданные в body) кратны 5 или 10.
+Ардес картинки-спрайта:
+/assets/course14/social-challenge.png
+*/
+.box {
+    background-color:#1abc9c;
+    color:#fff;
+    padding:20px;
+    width:240px;
+    box-sizing:border-box;
+}
+.header {
+    font-weight:normal;
+    font-size:20px;
+    margin:0 0 20px 0;
+}
+
+.pics {
+    margin:25px 0 0 0;
+}
+.social {
+    background-image:url('/assets/course14/social-challenge.png');
+    background-repeat:no-repeat;
+    background-color:#16a085;
+    display:inline-block;
+    width:30px;
+    height:30px;
+    margin-right:5px;
+    
+}
+.social-fb {
+    background-position:0 0;
+}
+.social-tw {
+    background-position:-30px 0;
+}
+.social-google {
+    background-position:-60px 0;
+    
+}
