@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+    <head>
+	   <meta charset="utf-8" />
+	   <meta name="viewport" content="width=device-width" />
+       <title>Forms</title>
+	   <script>
+			
+			function display() {
+			    var output = document.getElementById('output');
+				var e = document.getElementById('elem');
+				var strUser = e.options[e.selectedIndex].text;
+			    output.innerHTML = strUser;
+				return false;
+			}
+			/*
+			function display2() {
+			
+				var x = new Array();
+				
+			    var output = document.getElementById('output2');
+				var e = document.getElementById('form2');
+				var strUser = e.options[e.selectedIndex].text;
+				x.push(strUser);
+			    output.innerHTML = x;
+				return false;
+			}
+			*/
+	   </script>
+	   <!-- <link rel="stylesheet" href="css/my_styles.css" type="text/css" /> -->
+    </head>
+    <body>
+	     <!-- body contents here -->
+		<form id="f1" name="form1" onsubmit="return display()" method="post">
+		<p>Selection lists</p>
+		<select id="elem" name="skills">
+			<option disabled selected>--</option>
+			<option value="html">HTML</option>
+			<option value="css">CSS</option>
+			<option value="js">JavaScript</option>
+			<option value="php">PHP</option>
+        </select>
+		
+		<p>
+		<input type="submit" name="submit1" value="Big Red Button" onclick="return display()" />
+		</p>
+		<div style="background:gray; display:inline-block; margin:10px;">
+			<p>
+				Output goes here:
+			</p>
+			<span id="output"></span>
+		 </div>
+		</form>
+		<form id="f2" onsubmit="return display2()" method="post">
+		<select id="form2" multiple name="skills[]" size="5">
+			<option value="html">HTML</option>
+			<option value="css" selected>CSS</option>
+			<option value="js" >JavaScript</option>
+			<option value="php">PHP</option>
+			<option value="html">HTML</option>
+			<option value="css">CSS</option>
+			<option value="js" >JavaScript</option>
+			<option value="php">PHP</option>
+        </select>
+		<input type="submit" name="submit2" value="Big Green Button" onclick="return display2()" />
+		
+		<div>
+			<p>
+				Output goes here:
+			</p>
+			<span id="output2"></span>
+		 </div>
+		 
+		<select name="skills" size="4">
+			<option value="html">HTML</option>
+			<option value="css" selected>CSS</option>
+			<option value="js">JavaScript</option>
+			<option value="php">PHP</option>
+			<option value="html">HTML</option>
+			<option value="css">CSS</option>
+			<option value="js" >JavaScript</option>
+			<option value="php">PHP</option>
+        </select>
+		
+		<select name="skills[]" size="6">
+			<optgroup label="markup">
+				<option selected>HTML</option>
+				<option >CSS</option>
+			</optgroup>
+				<optgroup label="frontend">
+				<option>JavaScript</option>
+			<option>PHP</option>
+				<option value="html">HTML</option>
+				<option value="css">CSS</option>
+			</optgroup>
+			<optgroup label="backend">
+				<option value="js" >JavaScript</option>
+				<option value="php">PHP</option>
+			</optgroup>
+        </select>
+		 
+    </body>
+</html>

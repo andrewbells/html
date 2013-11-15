@@ -1,0 +1,21 @@
+div {
+    width:470px;
+    height:40px;
+	margin:0 auto 2em;
+	background:#666;
+	color: #fff;
+	font-size:1.6em;
+	padding:250px 0 0 0px;
+	line-height:40px;
+}
+
+.banner1 {
+    background-image: url(_img/tw.png), url(_img/green_roses.jpg); 
+	background-repeat:no-repeat;
+	background-position:0 25px, left top;
+}
+.banner2 {
+    background:  url(_img/tw.png), url(_img/red_rose.jpg);
+	background-repeat:no-repeat;
+	background-position:right top, left top;
+}
