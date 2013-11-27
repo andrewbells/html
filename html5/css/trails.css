@@ -1,0 +1,32 @@
+@charset"UTF-8";
+
+
+/* html5 display rule */
+address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+    display:block;
+}
+
+section#trailReviews figcaption {
+    text-transform: uppercase;
+	color: #4d4d4d;
+	font-size: 1.5em;
+
+}
+
+.leftCol {
+	float: left;
+}
+
+
+.rightCol {
+	float: right;
+}
+
+#trailReviews address {
+	color:#666;
+	line-height:1.6;
+	margin-bottom:1em;
+}
+footer#pageFooter small {
+    font-style:italic;
+}
