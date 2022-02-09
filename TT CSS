@@ -218,7 +218,7 @@ html:lang(pl) section#section-9568295 div[data-controller="common--video-player-
       content: "Aplikuj przez Facebook";
 }
 
-/*Application form FI*/
+/*Application form PL*/
 #job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/pl/candidates"]  label[for="candidate_email"]
 {
       visibility: hidden;
@@ -285,7 +285,7 @@ html:lang(pl) section#section-auto-join p::after
 
 /*SPAIN*/
 
-/*Navigation menu - home page FI - Career menu*/
+/*Navigation menu - home page ES - Career menu*/
 html:lang(es) header button span.mx-2.text-sm 
 {
       font-size: 0;
@@ -297,7 +297,7 @@ html:lang(es) header button span.mx-2.text-sm::after
       content: "Menú";
 }
 
-/*Navigation menu - home page FI*/
+/*Navigation menu - home page ES*/
 html:lang(es) .z-career-header .z-career-header-menu-content nav ul li a[href="/es"]
 { 
       font-size: 0;
@@ -336,7 +336,51 @@ html:lang(es) section#section-9493189 div[data-controller="common--video-player-
       content: "Ver vídeo";
 }        
 
+/*Application form ES*/
+
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/es/candidates"]  label[for="candidate_resume_remote_url"]
+{
+      visibility: hidden;
+      position: relative;
+}
+
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/es/candidates"] label[for="candidate_resume_remote_url"]::after 
+{
+      visibility: visible;
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "Subir currículum";
+}
+
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/es/candidates"]  label[for="candidate_job_applications_attributes_0_cover_letter"]
+{
+      visibility: hidden;
+      position: relative;
+}
+
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/es/candidates"] label[for="candidate_job_applications_attributes_0_cover_letter"]::after 
+{
+      visibility: visible;
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "Sube de motivación";
+}
+
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/es/candidates"]  button[title="Selecciona el tipo"] div span
+{
+      font-size: 0;
+}
+
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/es/candidates"]  button[title="Selecciona el tipo"] div span::after
+{
+      font-size: 18px;
+      content: "Puedes personalizar tu solicitud agregando información adicional.";
+}
+
 /* Extra small devices (phones, 600px and down) */
+
 @media only screen and (max-width: 600px) 
 {
 
