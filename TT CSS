@@ -1,0 +1,361 @@
+/*ENGLISH*/ 
+
+/*Watch the video button - home page EN*/
+html:lang(en) section#section-9471899 div[data-controller="common--video-player-modal"] span
+{ 
+      visibility: hidden;
+      position: relative;
+      min-width: 100%;
+}
+
+html:lang(en) section#section-9471899 div[data-controller="common--video-player-modal"] span::after
+{ 
+      visibility: visible;
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "Watch the video";
+}
+
+/*FINNISH*/
+
+/*Navigation menu - home page FI - Career menu*/
+html:lang(fi) header button span.mx-2.text-sm 
+{
+      font-size: 0;
+}
+
+html:lang(fi) header button span.mx-2.text-sm::after 
+{
+      font-size: 14px;
+      content: "Valikko";
+}
+
+/*Navigation menu - home page FI*/
+html:lang(fi) .z-career-header .z-career-header-menu-content nav ul li a[href="/fi"]
+{ 
+      font-size: 0;
+}
+
+html:lang(fi) .z-career-header .z-career-header-menu-content nav ul li a[href="/fi"]::after
+{ 
+      font-size: 40px;
+      content: "Start";
+}
+
+html:lang(fi) .z-career-header .z-career-header-menu-content nav ul li a[href="/fi/jobs"]
+{ 
+      font-size: 0;
+}
+
+html:lang(fi) .z-career-header .z-career-header-menu-content nav ul li a[href="/fi/jobs"]::after
+{ 
+      font-size: 40px;
+      content: "Työpaikat";
+}
+
+/*Watch the video button - home page FI*/
+html:lang(fi) section#section-9443020 div[data-controller="common--video-player-modal"] span
+{ 
+      visibility: hidden;
+      position: relative;
+      min-width: 100%;
+}
+
+html:lang(fi) section#section-9443020 div[data-controller="common--video-player-modal"] span::after
+{ 
+      visibility: visible;
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "Katso video";
+}
+
+/*Job openings button - hope page header FI*/
+html:lang(fi) .z-career-block-content a[href="#section-jobs"] span.truncate
+{ 
+      font-size: 0;
+}
+
+html:lang(fi) .z-career-block-content a[href="#section-jobs"] span.truncate::after
+{ 
+      font-size: 16px;
+      content: "Avoimet työpaikat";
+}
+
+/*Application form FI*/
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/fi/candidates"]  label[for="candidate_job_applications_attributes_0_cover_letter"]
+{
+      visibility: hidden;
+      position: relative;
+}
+
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/fi/candidates"] label[for="candidate_job_applications_attributes_0_cover_letter"]::after 
+{
+      visibility: visible;
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "Saatekirje";
+}
+
+
+/*POLISH*/
+
+/*Navigation menu - home page PL*/
+html:lang(pl) .z-career-header .z-career-header-menu-content nav ul li a[href="/pl"]
+{ 
+      font-size: 0;
+}
+
+html:lang(pl) .z-career-header .z-career-header-menu-content nav ul li a[href="/pl"]::after
+{ 
+      font-size: 40px;
+      content: "Start";
+}
+
+html:lang(pl) .z-career-header .z-career-header-menu-content nav ul li a[href="/pl/jobs"]
+{ 
+      font-size: 0;
+}
+
+html:lang(pl) .z-career-header .z-career-header-menu-content nav ul li a[href="/pl/jobs"]::after
+{ 
+      font-size: 40px;
+      content: "Oferty pracy";
+}
+
+/*All jobs button - home page PL*/
+html:lang(pl) section#section-9568296 a[href="/pl/jobs"] span.truncate
+{ 
+      /*either solution works*/
+      /*
+      visibility: hidden;
+      position: relative;
+      */
+      font-size: 0;
+}
+
+html:lang(pl) section#section-9568296 a[href="/pl/jobs"] span.truncate::after
+{ 
+      /*either solution works*/
+      /*
+      visibility: visible;
+      position: absolute;
+      top: 0;
+      left: 10%;
+      */
+      font-size: 16px;
+      content: "Wszystkie oferty pracy";
+}
+
+/*Watch the video button - home page PL*/
+html:lang(pl) section#section-9568295 div[data-controller="common--video-player-modal"] span
+{ 
+      visibility: hidden;
+      position: relative;
+}
+
+html:lang(pl) section#section-9568295 div[data-controller="common--video-player-modal"] span::after
+{ 
+      visibility: visible;
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "Zobacz film";
+}        
+
+/*Application form social buttons PL*/
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/pl/candidates"] button.linkedin-button
+{ 
+      font-size: 0;
+}
+
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/pl/candidates"] button.linkedin-button::after
+{ 
+      font-size: 15px;
+      content: "Aplikuj przez LinkedIn";
+}    
+
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/pl/candidates"] button.facebook-button
+{ 
+      font-size: 0;
+}
+
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/pl/candidates"] button.facebook-button::after
+{ 
+      font-size: 15px;
+      content: "Aplikuj przez Facebook";
+}
+
+/*Footer*/
+
+html:lang(pl) footer div[data-controller="blocks--footer--menu"] a[href="/pl"]
+{ 
+      font-size: 0;
+}
+
+html:lang(pl) footer div[data-controller="blocks--footer--menu"] a[href="/pl"]::after
+{ 
+      font-size: 16px;
+      content: "Start";
+}
+
+html:lang(pl) footer div[data-controller="blocks--footer--menu"] a[href="/pl/jobs"]
+{ 
+      font-size: 0;
+}
+
+html:lang(pl) footer div[data-controller="blocks--footer--menu"] a[href="/pl/jobs"]::after
+{ 
+      font-size: 16px;
+      content: "Oferty pracy";
+}
+
+/*Footer - Auto-join PL*/
+
+html:lang(pl) section#section-auto-join h2
+{ 
+      font-size: 0;
+}
+
+html:lang(pl) section#section-auto-join h2::after
+{ 
+      font-size: 40px;
+      content: "Czy pracujesz już w Kodit.io?";
+}
+
+html:lang(pl) section#section-auto-join p
+{ 
+      font-size: 0;
+}
+
+html:lang(pl) section#section-auto-join p::after
+{ 
+      font-size: 24px;
+      content: "Rekrutujmy razem i wspólnie znajdźmy Twojego przyszłego współpracownika.";
+}
+
+html:lang(pl) footer.z-career-footer p a
+{ 
+      font-size: 0;
+}
+
+html:lang(pl) footer.z-career-footer p
+{ 
+      font-size: 0;
+}
+
+html:lang(pl) footer.z-career-footer p a::after
+{ 
+      font-size: 14px;
+      content: "Strona kariery systemu Teamtailor";
+}
+
+/*SPAIN*/
+
+/*Navigation menu - home page FI - Career menu*/
+html:lang(es) header button span.mx-2.text-sm 
+{
+      font-size: 0;
+}
+
+html:lang(es) header button span.mx-2.text-sm::after 
+{
+      font-size: 14px;
+      content: "Menú";
+}
+
+/*Navigation menu - home page FI*/
+html:lang(es) .z-career-header .z-career-header-menu-content nav ul li a[href="/es"]
+{ 
+      font-size: 0;
+}
+
+html:lang(es) .z-career-header .z-career-header-menu-content nav ul li a[href="/es"]::after
+{ 
+      font-size: 40px;
+      content: "Inicio";
+}
+
+html:lang(es) .z-career-header .z-career-header-menu-content nav ul li a[href="/es/jobs"]
+{ 
+      font-size: 0;
+}
+
+html:lang(es) .z-career-header .z-career-header-menu-content nav ul li a[href="/es/jobs"]::after
+{ 
+      font-size: 40px;
+      content: "Vacantes";
+}
+
+/*Watch the video button - home page ES*/
+html:lang(es) section#section-9493189 div[data-controller="common--video-player-modal"] span
+{ 
+      visibility: hidden;
+      position: relative;
+}
+
+html:lang(es) section#section-9493189 div[data-controller="common--video-player-modal"] span::after
+{ 
+      visibility: visible;
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "Ver vídeo";
+}        
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+
+/*Footer PL*/
+
+html:lang(pl) footer div[data-controller="blocks--footer--menu"] a[href="/pl"]::after
+{ 
+      font-size: 21px;
+      content: "Start";
+}
+
+html:lang(pl) footer div[data-controller="blocks--footer--menu"] a[href="/pl/jobs"]::after
+{ 
+      font-size: 21px;
+}
+
+/*Navigation menu - home page FI*/
+
+html:lang(fi) .z-career-header .z-career-header-menu-content nav ul li a[href="/fi"]::after
+{ 
+      font-size: 24px;
+}
+
+html:lang(fi) .z-career-header .z-career-header-menu-content nav ul li a[href="/fi/jobs"]::after
+{ 
+      font-size: 24px;
+}
+
+/*Navigation menu - home page ES*/
+
+html:lang(es) .z-career-header .z-career-header-menu-content nav ul li a[href="/es"]::after
+{ 
+      font-size: 24px;
+}
+
+html:lang(es) .z-career-header .z-career-header-menu-content nav ul li a[href="/es/jobs"]::after
+{ 
+      font-size: 24px;
+}
+
+/*Navigation menu - home page PL*/
+
+html:lang(pl) .z-career-header .z-career-header-menu-content nav ul li a[href="/pl"]::after
+{ 
+      font-size: 24px;
+}
+
+html:lang(pl) .z-career-header .z-career-header-menu-content nav ul li a[href="/pl/jobs"]::after
+{ 
+      font-size: 24px;
+}
+
+}
