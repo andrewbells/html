@@ -1,3 +1,22 @@
+/*GLOBAL*/
+
+/*Remove TT ad from the footer*/
+footer.z-career-footer a
+{ 
+      display: none;
+}
+
+footer.z-career-footer p
+{ 
+      display: none;
+}
+
+/*Remove footer altogether from the application form*/
+.job_applications footer.z-career-footer
+{ 
+      height: 0;
+}
+
 /*ENGLISH*/ 
 
 /*Watch the video button - home page EN*/
@@ -125,6 +144,17 @@ html:lang(pl) .z-career-header .z-career-header-menu-content nav ul li a[href="/
       content: "Oferty pracy";
 }
 
+html:lang(pl) .z-career-header .z-career-header-menu-content div span:nth-of-type(3)
+{ 
+      font-size: 0;
+}
+
+html:lang(pl) .z-career-header .z-career-header-menu-content div span:nth-of-type(3)::after
+{ 
+      font-size: 21px;
+      content: "Strona internetowa";
+}
+
 /*All jobs button - home page PL*/
 html:lang(pl) section#section-9568296 a[href="/pl/jobs"] span.truncate
 { 
@@ -188,6 +218,23 @@ html:lang(pl) section#section-9568295 div[data-controller="common--video-player-
       content: "Aplikuj przez Facebook";
 }
 
+/*Application form FI*/
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/pl/candidates"]  label[for="candidate_email"]
+{
+      visibility: hidden;
+      position: relative;
+      min-width: 100%;
+}
+
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/pl/candidates"] label[for="candidate_email"]::after 
+{
+      visibility: visible;
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "E-mail";
+}
+
 /*Footer*/
 
 html:lang(pl) footer div[data-controller="blocks--footer--menu"] a[href="/pl"]
@@ -234,22 +281,6 @@ html:lang(pl) section#section-auto-join p::after
 { 
       font-size: 24px;
       content: "Rekrutujmy razem i wspólnie znajdźmy Twojego przyszłego współpracownika.";
-}
-
-html:lang(pl) footer.z-career-footer p a
-{ 
-      font-size: 0;
-}
-
-html:lang(pl) footer.z-career-footer p
-{ 
-      font-size: 0;
-}
-
-html:lang(pl) footer.z-career-footer p a::after
-{ 
-      font-size: 14px;
-      content: "Strona kariery systemu Teamtailor";
 }
 
 /*SPAIN*/
