@@ -20,14 +20,14 @@ footer.z-career-footer p
 /*ENGLISH*/ 
 
 /*Watch the video button - home page EN*/
-html:lang(en) section#section-9471899 div[data-controller="common--video-player-modal"] span
+html:lang(en) section div[data-controller="common--video-player-modal"] span
 { 
       visibility: hidden;
       position: relative;
       min-width: 100%;
 }
 
-html:lang(en) section#section-9471899 div[data-controller="common--video-player-modal"] span::after
+html:lang(en) section div[data-controller="common--video-player-modal"] span::after
 { 
       visibility: visible;
       position: absolute;
@@ -74,14 +74,14 @@ html:lang(fi) .z-career-header .z-career-header-menu-content nav ul li a[href="/
 }
 
 /*Watch the video button - home page FI*/
-html:lang(fi) section#section-9443020 div[data-controller="common--video-player-modal"] span
+html:lang(fi) section div[data-controller="common--video-player-modal"] span
 { 
       visibility: hidden;
       position: relative;
       min-width: 100%;
 }
 
-html:lang(fi) section#section-9443020 div[data-controller="common--video-player-modal"] span::after
+html:lang(fi) section div[data-controller="common--video-player-modal"] span::after
 { 
       visibility: visible;
       position: absolute;
@@ -156,7 +156,7 @@ html:lang(pl) .z-career-header .z-career-header-menu-content div span:nth-of-typ
 }
 
 /*All jobs button - home page PL*/
-html:lang(pl) section#section-9568296 a[href="/pl/jobs"] span.truncate
+html:lang(pl) section a[href="/pl/jobs"] span.truncate
 { 
       /*either solution works*/
       /*
@@ -166,7 +166,7 @@ html:lang(pl) section#section-9568296 a[href="/pl/jobs"] span.truncate
       font-size: 0;
 }
 
-html:lang(pl) section#section-9568296 a[href="/pl/jobs"] span.truncate::after
+html:lang(pl) section a[href="/pl/jobs"] span.truncate::after
 { 
       /*either solution works*/
       /*
@@ -180,13 +180,13 @@ html:lang(pl) section#section-9568296 a[href="/pl/jobs"] span.truncate::after
 }
 
 /*Watch the video button - home page PL*/
-html:lang(pl) section#section-9568295 div[data-controller="common--video-player-modal"] span
+html:lang(pl) section div[data-controller="common--video-player-modal"] span
 { 
       visibility: hidden;
       position: relative;
 }
 
-html:lang(pl) section#section-9568295 div[data-controller="common--video-player-modal"] span::after
+html:lang(pl) section div[data-controller="common--video-player-modal"] span::after
 { 
       visibility: visible;
       position: absolute;
@@ -321,13 +321,13 @@ html:lang(es) .z-career-header .z-career-header-menu-content nav ul li a[href="/
 }
 
 /*Watch the video button - home page ES*/
-html:lang(es) section#section-9493189 div[data-controller="common--video-player-modal"] span
+html:lang(es) section div[data-controller="common--video-player-modal"] span
 { 
       visibility: hidden;
       position: relative;
 }
 
-html:lang(es) section#section-9493189 div[data-controller="common--video-player-modal"] span::after
+html:lang(es) section div[data-controller="common--video-player-modal"] span::after
 { 
       visibility: visible;
       position: absolute;
@@ -434,4 +434,3 @@ html:lang(pl) .z-career-header .z-career-header-menu-content nav ul li a[href="/
 }
 
 }
-
