@@ -408,6 +408,13 @@ html:lang(es) section div[data-controller="common--video-player-modal"] span::af
       content: "Puedes personalizar tu solicitud agregando información adicional.";
 }
 
+/*Application form apply button center ES*/
+#job-application-form input[value="Enviar solicitud de empleo"]
+{
+      padding-left: 70px;
+      padding-right: 70px;
+}
+
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) 
