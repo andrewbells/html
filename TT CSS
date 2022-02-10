@@ -382,19 +382,20 @@ html:lang(es) section div[data-controller="common--video-player-modal"] span::af
       content: "Subir currículum";
 }
 
-#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/es/candidates"]  label[for="candidate_job_applications_attributes_0_cover_letter"]
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/es/candidates"]  label[for="candidate_file_remote_url"]
 {
       visibility: hidden;
       position: relative;
+      min-width: 100%;
 }
 
-#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/es/candidates"] label[for="candidate_job_applications_attributes_0_cover_letter"]::after 
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/es/candidates"] label[for="candidate_file_remote_url"]::after 
 {
       visibility: visible;
       position: absolute;
       top: 0;
       left: 0;
-      content: "Sube de motivación";
+      content: "Información adicional";
 }
 
 #job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/es/candidates"]  button[title="Selecciona el tipo"] div span
