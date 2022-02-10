@@ -10,6 +10,11 @@ footer.z-career-footer p
 { 
       display: none;
 }
+/*Remove footer ad from Data privacy page*/
+#jobsite.data_privacy_terms div.teamtailor p
+{ 
+      display: none;
+}
 
 /*Remove footer altogether from the application form*/
 .job_applications footer.z-career-footer
@@ -278,6 +283,30 @@ html:lang(pl) section#section-auto-join p
 }
 
 html:lang(pl) section#section-auto-join p::after
+{ 
+      font-size: 24px;
+      content: "Rekrutujmy razem i wspólnie znajdźmy Twojego przyszłego współpracownika.";
+}
+
+/*Data privacy Footer - Auto-join PL*/
+
+html:lang(pl) section.c-employee-referral h2
+{ 
+      font-size: 0;
+}
+
+html:lang(pl) section.c-employee-referral h2::after
+{ 
+      font-size: 40px;
+      content: "Czy pracujesz już w Kodit.io?";
+}
+
+html:lang(pl) section.c-employee-referral p
+{ 
+      font-size: 0;
+}
+
+html:lang(pl) section.c-employee-referral p::after
 { 
       font-size: 24px;
       content: "Rekrutujmy razem i wspólnie znajdźmy Twojego przyszłego współpracownika.";
