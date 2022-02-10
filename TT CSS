@@ -16,6 +16,12 @@ footer.z-career-footer p
       display: none;
 }
 
+/*Remove footer from Data Privacy page - all languages*/
+#jobsite.data_privacy_terms footer#footer
+{
+        display: none;
+}
+
 /*Remove footer altogether from the application form*/
 .job_applications footer.z-career-footer
 { 
@@ -55,6 +61,18 @@ html:lang(fi) header button span.mx-2.text-sm::after
       content: "Valikko";
 }
 
+/*Navigation menu - Data Privacy FI - Career menu*/
+html:lang(fi) #jobsite.data_privacy_terms header .sliding-menu-button span 
+{
+      font-size: 0;
+}
+
+html:lang(fi) #jobsite.data_privacy_terms header .sliding-menu-button span::after 
+{
+      font-size: 14px;
+      content: "Valikko";
+}
+
 /*Navigation menu - home page FI*/
 html:lang(fi) .z-career-header .z-career-header-menu-content nav ul li a[href="/fi"]
 { 
@@ -74,6 +92,29 @@ html:lang(fi) .z-career-header .z-career-header-menu-content nav ul li a[href="/
 
 html:lang(fi) .z-career-header .z-career-header-menu-content nav ul li a[href="/fi/jobs"]::after
 { 
+      font-size: 40px;
+      content: "Työpaikat";
+}
+
+/*Navigation menu - Data Privacy FI - Career menu*/
+html:lang(fi) #jobsite.data_privacy_terms header nav.sliding-menu-content ul li a[href="/fi"]
+{
+      font-size: 0;
+}
+
+html:lang(fi) #jobsite.data_privacy_terms header nav.sliding-menu-content ul li a[href="/fi"]::after 
+{
+      font-size: 40px;
+      content: "Start";
+}
+
+html:lang(fi) #jobsite.data_privacy_terms header nav.sliding-menu-content ul li a[href="/fi/jobs"]
+{
+      font-size: 0;
+}
+
+html:lang(fi) #jobsite.data_privacy_terms header nav.sliding-menu-content ul li a[href="/fi/jobs"]::after 
+{
       font-size: 40px;
       content: "Työpaikat";
 }
@@ -155,6 +196,45 @@ html:lang(pl) .z-career-header .z-career-header-menu-content div span:nth-of-typ
 }
 
 html:lang(pl) .z-career-header .z-career-header-menu-content div span:nth-of-type(3)::after
+{ 
+      font-size: 21px;
+      content: "Strona internetowa";
+}
+
+/*Navigation menu - Data Privacy PL - Career menu*/
+html:lang(pl) #jobsite.data_privacy_terms header nav.sliding-menu-content ul li a[href="/pl"]
+{
+      font-size: 0;
+}
+
+html:lang(pl) #jobsite.data_privacy_terms header nav.sliding-menu-content ul li a[href="/pl"]::after 
+{
+      font-size: 40px;
+      content: "Start";
+}
+
+html:lang(pl) #jobsite.data_privacy_terms header nav.sliding-menu-content ul li a[href="/pl/jobs"]
+{
+      font-size: 0;
+}
+
+html:lang(pl) #jobsite.data_privacy_terms header nav.sliding-menu-content ul li a[href="/pl/jobs"]::after 
+{
+      font-size: 40px;
+      content: "Oferty pracy";
+}
+
+html:lang(pl) #jobsite.data_privacy_terms header .sliding-menu-button span
+{
+      min-width: 206px;
+}
+
+html:lang(pl) #jobsite.data_privacy_terms header nav.sliding-menu-content div.miscellaneous-navigation span:nth-of-type(3)
+{ 
+      font-size: 0;
+}
+
+html:lang(pl) #jobsite.data_privacy_terms header nav.sliding-menu-content div.miscellaneous-navigation span:nth-of-type(3)::after
 { 
       font-size: 21px;
       content: "Strona internetowa";
@@ -326,6 +406,18 @@ html:lang(es) header button span.mx-2.text-sm::after
       content: "Menú";
 }
 
+/*Navigation menu - Data Privacy ES - Career menu*/
+html:lang(es) #jobsite.data_privacy_terms header .sliding-menu-button span 
+{
+      font-size: 0;
+}
+
+html:lang(es) #jobsite.data_privacy_terms header .sliding-menu-button span::after 
+{
+      font-size: 14px;
+      content: "Menú";
+}
+
 /*Navigation menu - home page ES*/
 html:lang(es) .z-career-header .z-career-header-menu-content nav ul li a[href="/es"]
 { 
@@ -348,6 +440,30 @@ html:lang(es) .z-career-header .z-career-header-menu-content nav ul li a[href="/
       font-size: 40px;
       content: "Vacantes";
 }
+
+/*Navigation menu - Data Privacy ES - Career menu*/
+html:lang(es) #jobsite.data_privacy_terms header nav.sliding-menu-content ul li a[href="/es"]
+{
+      font-size: 0;
+}
+
+html:lang(es) #jobsite.data_privacy_terms header nav.sliding-menu-content ul li a[href="/es"]::after 
+{
+      font-size: 40px;
+      content: "Inicio";
+}
+
+html:lang(es) #jobsite.data_privacy_terms header nav.sliding-menu-content ul li a[href="/es/jobs"]
+{
+      font-size: 0;
+}
+
+html:lang(es) #jobsite.data_privacy_terms header nav.sliding-menu-content ul li a[href="/es/jobs"]::after 
+{
+      font-size: 40px;
+      content: "Vacantes";
+}
+
 
 /*Watch the video button - home page ES*/
 html:lang(es) section div[data-controller="common--video-player-modal"] span
@@ -470,4 +586,9 @@ html:lang(pl) .z-career-header .z-career-header-menu-content nav ul li a[href="/
       font-size: 24px;
 }
 
+/*Navigation menu - Data Privacy - all languages*/
+#jobsite.data_privacy_terms header nav.sliding-menu-content ul li a::after
+{
+      font-size: 24px !important;
+}
 }
