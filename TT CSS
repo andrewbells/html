@@ -498,6 +498,38 @@ html:lang(es) section div[data-controller="common--video-player-modal"] span::af
       content: "Subir currículum";
 }
 
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/es/candidates"] div span.dz-message span[data-forms--inputs--upload-target="desktopText"]
+{
+      visibility: hidden;
+      position: relative;
+}
+
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/es/candidates"] div span.dz-message span[data-forms--inputs--upload-target="desktopText"]::before 
+{
+      visibility: visible;
+      position: absolute;
+      top: 0;
+      left: 0;
+      text-decoration: underline;
+      content: "Arrastra o sube el archivo";
+}
+
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/es/candidates"] div span.dz-message span[data-forms--inputs--upload-target="mobileText"]
+{
+      visibility: hidden;
+      position: relative;
+}
+
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/es/candidates"] div span.dz-message span[data-forms--inputs--upload-target="mobileText"]::before 
+{
+      visibility: visible;
+      position: absolute;
+      top: 0;
+      left: 0;
+      text-decoration: underline;
+      content: "Haz clic para subir";
+}
+
 #job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/es/candidates"]  label[for="candidate_file_remote_url"]
 {
       visibility: hidden;
