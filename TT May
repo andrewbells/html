@@ -347,23 +347,23 @@ html:lang(pl) section div[data-controller="common--video-player-modal"] span::af
 
 /*Footer*/
 
-html:lang(pl) footer div[data-controller="blocks--footer--menu"] a[href="/pl"]
+html:lang(pl) footer div[data-controller="blocks--footer--menu"] a[href="https://careers.kodit.io/pl"]
 { 
       font-size: 0;
 }
 
-html:lang(pl) footer div[data-controller="blocks--footer--menu"] a[href="/pl"]::after
+html:lang(pl) footer div[data-controller="blocks--footer--menu"] a[href="https://careers.kodit.io/pl"]::after
 { 
       font-size: 16px;
       content: "Start";
 }
 
-html:lang(pl) footer div[data-controller="blocks--footer--menu"] a[href="/pl/jobs"]
+html:lang(pl) footer div[data-controller="blocks--footer--menu"] a[href="https://careers.kodit.io/pl/jobs"]
 { 
       font-size: 0;
 }
 
-html:lang(pl) footer div[data-controller="blocks--footer--menu"] a[href="/pl/jobs"]::after
+html:lang(pl) footer div[data-controller="blocks--footer--menu"] a[href="https://careers.kodit.io/pl/jobs"]::after
 { 
       font-size: 16px;
       content: "Oferty pracy";
