@@ -168,6 +168,30 @@ html:lang(fi) .z-career-block-content a[href="#section-jobs"] span.truncate::aft
 
 /*POLISH*/
 
+/*Navigation menu - home page PL - Career menu*/
+html:lang(pl) header button span.mx-2.text-sm 
+{
+      font-size: 0;
+}
+
+html:lang(pl) header button span.mx-2.text-sm::after 
+{
+      font-size: 14px;
+      content: "Menu";
+}
+
+/*Navigation menu - Data Privacy PL - Career menu*/
+html:lang(pl) #jobsite.data_privacy_terms header .sliding-menu-button span 
+{
+      font-size: 0;
+}
+
+html:lang(fi) #jobsite.data_privacy_terms header .sliding-menu-button span::after 
+{
+      font-size: 14px;
+      content: "Menu";
+}
+
 /*Navigation menu - home page PL*/
 html:lang(pl) .z-career-header .z-career-header-menu-content nav ul li a[href="https://careers.kodit.io/pl"]
 { 
@@ -571,6 +595,11 @@ html:lang(es) section div[data-controller="common--video-player-modal"] span::af
 {
 
 /*Footer PL*/
+
+html:lang(pl) footer div[data-controller="blocks--footer--menu"] a[href="https://careers.kodit.io/pl"]
+{ 
+     font-size: 0;
+}
 
 html:lang(pl) footer div[data-controller="blocks--footer--menu"] a[href="https://careers.kodit.io/pl"]::after
 { 
