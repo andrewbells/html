@@ -51,12 +51,12 @@ html:lang(en) section div[data-controller="common--video-player-modal"] span::af
 /*FINNISH*/
 
 /*Navigation menu - home page FI - Career menu*/
-html:lang(fi) header button span.mx-2.text-sm 
+html:lang(fi) header button span.text-sm 
 {
       font-size: 0;
 }
 
-html:lang(fi) header button span.mx-2.text-sm::after 
+html:lang(fi) header button span.text-sm::after 
 {
       font-size: 14px;
       content: "Valikko";
@@ -170,12 +170,12 @@ html:lang(fi) .z-career-block-content a[href="#section-jobs"] span.truncate::aft
 /*POLISH*/
 
 /*Navigation menu - home page PL - Career menu*/
-html:lang(pl) header button span.mx-2.text-sm 
+html:lang(pl) header button span.text-sm 
 {
       font-size: 0;
 }
 
-html:lang(pl) header button span.mx-2.text-sm::after 
+html:lang(pl) header button span.text-sm::after 
 {
       font-size: 14px;
       content: "Menu";
@@ -431,12 +431,12 @@ html:lang(pl) section.c-employee-referral p::after
 /*SPAIN*/
 
 /*Navigation menu - home page ES - Career menu*/
-html:lang(es) header button span.mx-2.text-sm 
+html:lang(es) header button span.text-sm 
 {
       font-size: 0;
 }
 
-html:lang(es) header button span.mx-2.text-sm::after 
+html:lang(es) header button span.text-sm::after 
 {
       font-size: 14px;
       content: "Menú";
@@ -604,12 +604,12 @@ html:lang(es) section div[data-controller="common--video-player-modal"] span::af
 /* Catalan */
 
 /*Navigation menu - home page CA - Career menu*/
-html:lang(ca) header button span.mx-2.text-sm 
+html:lang(ca) header button span.text-sm 
 {
       font-size: 0;
 }
 
-html:lang(ca) header button span.mx-2.text-sm::after 
+html:lang(ca) header button span.text-sm::after 
 {
       font-size: 14px;
       content: "Career menu";
@@ -690,7 +690,7 @@ html:lang(ca) section div[data-controller="common--video-player-modal"] span::af
       content: "Watch the video";
 }        
 
-/*Application form ES*/
+/*Application form CA*/
 
 #job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/ca/candidates"]  label[for="candidate_resume_remote_url"]
 {
