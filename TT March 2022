@@ -628,92 +628,76 @@ html:lang(ca) #jobsite.data_privacy_terms header .sliding-menu-button span::afte
 }
 
 /*Navigation menu - home page CA*/
-html:lang(ca) .z-career-header .z-career-header-menu-content nav ul li a[href="https://careers.rivehomes.com/ca"]
+html:lang(ca) .z-career-header .z-career-header-menu-content nav ul li a[href="https://careers.rivehomes.com"]
 { 
       font-size: 0;
 }
 
-html:lang(ca) .z-career-header .z-career-header-menu-content nav ul li a[href="https://careers.rivehomes.com/ca"]::after
+html:lang(ca) .z-career-header .z-career-header-menu-content nav ul li a[href="https://careers.rivehomes.com"]::after
 { 
       font-size: 40px;
       content: "Start";
 }
 
-html:lang(ca) .z-career-header .z-career-header-menu-content nav ul li a[href="https://careers.rivehomes.com/ca/jobs"]
+html:lang(ca) .z-career-header .z-career-header-menu-content nav ul li a[href="https://careers.rivehomes.com/jobs"]
 { 
       font-size: 0;
 }
 
-html:lang(ca) .z-career-header .z-career-header-menu-content nav ul li a[href="https://careers.rivehomes.com/ca/jobs"]::after
+html:lang(ca) .z-career-header .z-career-header-menu-content nav ul li a[href="https://careers.rivehomes.com/jobs"]::after
 { 
       font-size: 40px;
       content: "Jobs";
 }
 
 /*Navigation menu - Data Privacy CA - Career menu*/
-html:lang(ca) #jobsite.data_privacy_terms header nav.sliding-menu-content ul li a[href="https://careers.rivehomes.com/ca"]
+html:lang(ca) #jobsite.data_privacy_terms header nav.sliding-menu-content ul li a[href="https://careers.rivehomes.com"]
 {
       font-size: 0;
 }
 
-html:lang(ca) #jobsite.data_privacy_terms header nav.sliding-menu-content ul li a[href="https://careers.rivehomes.com/ca"]::after 
+html:lang(ca) #jobsite.data_privacy_terms header nav.sliding-menu-content ul li a[href="https://careers.rivehomes.com"]::after 
 {
       font-size: 40px;
       content: "Start";
 }
 
-html:lang(ca) #jobsite.data_privacy_terms header nav.sliding-menu-content ul li a[href="https://careers.rivehomes.com/ca/jobs"]
+html:lang(ca) #jobsite.data_privacy_terms header nav.sliding-menu-content ul li a[href="https://careers.rivehomes.com/jobs"]
 {
       font-size: 0;
 }
 
-html:lang(ca) #jobsite.data_privacy_terms header nav.sliding-menu-content ul li a[href="https://careers.rivehomes.com/ca/jobs"]::after 
+html:lang(ca) #jobsite.data_privacy_terms header nav.sliding-menu-content ul li a[href="https://careers.rivehomes.com/jobs"]::after 
 {
       font-size: 40px;
       content: "Jobs";
 }
-
-
-/*Watch the video button - home page ES*/
-html:lang(ca) section div[data-controller="common--video-player-modal"] span
-{ 
-      visibility: hidden;
-      position: relative;
-}
-
-html:lang(ca) section div[data-controller="common--video-player-modal"] span::after
-{ 
-      visibility: visible;
-      position: absolute;
-      top: 0;
-      left: 0;
-      content: "Watch the video";
-}        
+   
 
 /*Application form CA*/
 
-#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/ca/candidates"]  label[for="candidate_resume_remote_url"]
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/candidates"]  label[for="candidate_resume_remote_url"]
 {
       visibility: hidden;
       position: relative;
 }
 
-#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/ca/candidates"] label[for="candidate_resume_remote_url"]::after 
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/candidates"] label[for="candidate_resume_remote_url"]::after 
 {
       visibility: visible;
       position: absolute;
       top: 0;
       left: 0;
-      content: "Upload CV";
+      content: "CV";
 }
 
-#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/ca/candidates"] div span.dz-message span[data-forms--inputs--upload-target="desktopText"]
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/candidates"] div span.dz-message span[data-forms--inputs--upload-target="desktopText"]
 {
       visibility: hidden;
       position: relative;
 }
 
-#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/ca/candidates"] div span.dz-message span[data-forms--inputs--upload-target="desktopText"]::before 
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/candidates"] div span.dz-message span[data-forms--inputs--upload-target="desktopText"]::before 
 {
       visibility: visible;
       position: absolute;
@@ -723,13 +707,13 @@ html:lang(ca) section div[data-controller="common--video-player-modal"] span::af
       content: "Additional files";
 }
 
-#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/ca/candidates"] div span.dz-message span[data-forms--inputs--upload-target="mobileText"]
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/candidates"] div span.dz-message span[data-forms--inputs--upload-target="mobileText"]
 {
       visibility: hidden;
       position: relative;
 }
 
-#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/ca/candidates"] div span.dz-message span[data-forms--inputs--upload-target="mobileText"]::before 
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/candidates"] div span.dz-message span[data-forms--inputs--upload-target="mobileText"]::before 
 {
       visibility: visible;
       position: absolute;
@@ -739,14 +723,14 @@ html:lang(ca) section div[data-controller="common--video-player-modal"] span::af
       content: "Submit application";
 }
 
-#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/ca/candidates"]  label[for="candidate_file_remote_url"]
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/candidates"]  label[for="candidate_file_remote_url"]
 {
       visibility: hidden;
       position: relative;
       min-width: 100%;
 }
 
-#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/ca/candidates"] label[for="candidate_file_remote_url"]::after 
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/candidates"] label[for="candidate_file_remote_url"]::after 
 {
       visibility: visible;
       position: absolute;
@@ -755,12 +739,12 @@ html:lang(ca) section div[data-controller="common--video-player-modal"] span::af
       content: "Additional information";
 }
 
-#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/ca/candidates"]  button[title="Selecciona el tipo"] div span
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/candidates"]  button[title="Selecciona el tipo"] div span
 {
       font-size: 0;
 }
 
-#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/ca/candidates"]  button[title="Selecciona el tipo"] div span::after
+#job-application-form[data-careersite--messenger-token-candidate-endpoint-value="/candidates"]  button[title="Selecciona el tipo"] div span::after
 {
       font-size: 18px;
       content: "Additional information.";
@@ -836,12 +820,12 @@ html:lang(pl) .z-career-header .z-career-header-menu-content nav ul li a[href="h
 
 /*Navigation menu - home page CA*/
 
-html:lang(ca) .z-career-header .z-career-header-menu-content nav ul li a[href="https://careers.rivehomes.com/ca"]::after
+html:lang(ca) .z-career-header .z-career-header-menu-content nav ul li a[href="https://careers.rivehomes.com"]::after
 { 
       font-size: 24px;
 }
 
-html:lang(ca) .z-career-header .z-career-header-menu-content nav ul li a[href="https://careers.rivehomes.com/ca/jobs"]::after
+html:lang(ca) .z-career-header .z-career-header-menu-content nav ul li a[href="https://careers.rivehomes.com/jobs"]::after
 { 
       font-size: 24px;
 }
