@@ -91,7 +91,7 @@ html:lang(fi) .z-career-header .z-career-header-menu-content nav ul li a[href="h
       font-size: 0;
 }
 
-html:lang(fi) .z-career-header .z-career-header-menu-content nav ul li a[href="https://careers.rivehomes.com/jobs"]::after
+html:lang(fi) .z-career-header .z-career-header-menu-content nav ul li a[href="https://careers.rivehomes.com/fi/jobs"]::after
 { 
       font-size: 40px;
       content: "Työpaikat";
